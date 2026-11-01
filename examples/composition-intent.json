@@ -1,0 +1,7 @@
+{
+  "viewer_relationship": "object",
+  "whole_picture_goal": "One finished oil painting of a fictional tabby flattening a linen napkin at a small dining table. Image 1 is ONLY a painting-quality reference; invent a new cat, clothing, activity and palette.",
+  "reconstruction_plan": "Keep head, muzzle, eyes and ears individual, with paint turns and restrained asymmetry. Fur, cloth and object marks should explain their different volumes. Clothing follows the specified activity and body shape.",
+  "visibility_plan": "Show the head, torso and all paws that perform the action; use natural framing for other limbs. Hands remain animal paws; object contacts and seated support stay credible. No extra fingers, limbs, caption, lettering, logos or physical frame.",
+  "background_plan": "Dusty olive-gray dining room field and subdued wood tabletop; background contrast supports the face and napkin contact."
+}

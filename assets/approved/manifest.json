@@ -1,0 +1,15 @@
+{
+  "id": "lafite-001",
+  "path": "lafite-approved.png",
+  "sha256": "2f5ee9c3148f6d81ea89c113a2712f5ae9efa8c64f68ac43f67da4442ddfdcc1",
+  "role": "quality",
+  "user_accepted": true,
+  "approval_date": "2026-11-01",
+  "approval_quote": "这次终于得到了一张我认可的拉菲油画。",
+  "origin": "User-supplied final image, copied without alteration.",
+  "external_requests": null,
+  "external_generation_count": null,
+  "transfer_status": "one_approved_case_cross_subject_transfer_unvalidated",
+  "asset_license": "../ASSET-LICENSE.md",
+  "limits": "Approval of this image does not establish a reproducible generation recipe or success rate. Do not copy its pet, pose, shirt, logo, newspaper, bench or palette."
+}

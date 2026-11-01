@@ -1,0 +1,33 @@
+{
+  "profile_version": "1.29.1",
+  "role": "奶油卷毛犬 · 抱着靠垫歇一会儿",
+  "facial_character": "Keep the cream curly brow and tan floppy ears, small dark eyes and compact dark nose of Image 1; do not substitute a white cat or orange eyes.",
+  "charm_contrast": "A little cream dog hugs a cushion almost as large as its torso while sinking sideways into an adult chair.",
+  "character_silhouette": "The small dog settles sideways into a simple upholstered armchair, holding a slightly oversized plain cushion against its belly; one paw rests on the top edge and the other disappears naturally beside the cushion.",
+  "action_design": "The small dog settles sideways into a simple upholstered armchair, holding a slightly oversized plain cushion against its belly; one paw rests on the top edge and the other disappears naturally beside the cushion.",
+  "paw_prop_roles": "Keep the specified paw tasks, contacts and small animal paws readable; no human hands or additional limbs.",
+  "posture": "Design head, shoulders, clothing, body and paws together around this activity; keep credible seated support.",
+  "gaze": "Eyes nearly closed in rest, head comfortably low; no compulsory eye contact or enlarged wet eyes.",
+  "gaze_mode": "closed_eyes",
+  "clothing_response": "Choose a light dusty rose cardigan: soft open neck leaves the muzzle clear, sleeve bends follow cushion holding, and lower cloth bunches at the seated belly without massive human shoulders.",
+  "animal_traits": "Preserve the individual identity from Image 1. Translate coat into directional paint and connected light-dark volume, rather than a generic toy or an all-over photographic fur surface.",
+  "visible_character_hook": "A little cream dog hugs a cushion almost as large as its torso while sinking sideways into an adult chair.",
+  "identity_anchors": [
+    "small cream shaggy curly-coated dog",
+    "soft floppy light-tan ears",
+    "small dark eyes in pale fluffy brow",
+    "dark compact nose and relatively short dog muzzle"
+  ],
+  "clothing_options": [
+    "dusty rose light cardigan with a loose open neckline",
+    "pale yellow cotton house shirt"
+  ],
+  "clothing_choice_reason": "Choose a light dusty rose cardigan: soft open neck leaves the muzzle clear, sleeve bends follow cushion holding, and lower cloth bunches at the seated belly without massive human shoulders.",
+  "design_review": {
+    "status": "reviewed_as_design",
+    "facial_character": "Source-specific feature combination recorded; no breed or hidden eye detail invented.",
+    "charm_contrast": "Ordinary physical activity and animal posture make the hook visible.",
+    "character_silhouette": "Clothing volume follows seated action; support and contacts specified."
+  },
+  "reference_inputs": []
+}

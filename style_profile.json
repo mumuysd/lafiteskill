@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "lafiteskill",
+  "version": "1.29.1",
+  "status": "approved_reference_integrated_transfer_unvalidated",
+  "scope": {
+    "input_subject_count": 1,
+    "current_development_species": [
+      "cat",
+      "dog"
+    ]
+  },
+  "product_defaults": {
+    "likeness_mode": "individual_character_reconstruction",
+    "identity_priority": "保留脸颊、耳与头、眼区与鼻口、毛色与体态的组合；允许重组姿态与比例。",
+    "clothing": "按生活状态、动物轮廓、动作需求和色调提出衣物选择，说明领口、袖口、松量、下摆与身体怎样相互作用。",
+    "viewer_relationship": "用户视线优先；眼睑、头态、口线和身体共同表达注意力，不强制对视。",
+    "scene_design": "持纸、收脚、尾巴接触和座面承重共同塑造日常状态；反差来自动物身体和人的行为共处。",
+    "runtime_references": "明确identity/structure/quality；照片默认身份依据，认可图可作质量参考，不复制其场景。",
+    "generation_reference_policy": "role_separated_references",
+    "repair_strategy": "用户认可后指定衣物或绘画调整，保存基线和允许变化区，核对身份、姿势、道具与支撑是否漂移。",
+    "authorization": "数量由本轮用户授权；不自动重试/编辑。",
+    "surface_description": "脸的额颊口鼻相接，毛束随头腿转面，衣纹随肩袖腹部，纸与家具各有明暗和接触。 脸与关键接触明确；衣体、道具、环境的明度、色差、边缘和笔痕强度共同服务人物。"
+  },
+  "core_traits": [
+    {
+      "id": "P1",
+      "name": "用身份关系组合保留个体",
+      "instruction": "保留脸颊、耳与头、眼区与鼻口、毛色与体态的组合；允许重组姿态与比例。",
+      "limits": "不把蓝灰、橙眼、圆脸当作所有猫狗的默认。",
+      "evidence": "assets/approved/manifest.json",
+      "status": "observed_in_one_approved_case_transfer_unvalidated"
+    },
+    {
+      "id": "P2",
+      "name": "先让动物真实地使用人类生活",
+      "instruction": "持纸、收脚、尾巴接触和座面承重共同塑造日常状态；反差来自动物身体和人的行为共处。",
+      "limits": "不统一读报、尾巴占位或两爪异任务；无道具同样可有具体持身。",
+      "evidence": "assets/approved/manifest.json",
+      "status": "observed_in_one_approved_case_transfer_unvalidated"
+    },
+    {
+      "id": "P3",
+      "name": "服装同时设计人物与体积",
+      "instruction": "按生活状态、动物轮廓、动作需求和色调提出衣物选择，说明领口、袖口、松量、下摆与身体怎样相互作用。",
+      "limits": "冲浪衫、短袖、蓝色、旧感和标志不是默认；无衣、正式衣物与不同年代均可。",
+      "evidence": "assets/approved/manifest.json",
+      "status": "observed_in_one_approved_case_transfer_unvalidated"
+    },
+    {
+      "id": "P4",
+      "name": "笔触依附体积与材料方向",
+      "instruction": "脸的额颊口鼻相接，毛束随头腿转面，衣纹随肩袖腹部，纸与家具各有明暗和接触。",
+      "limits": "不把粗笔、少毛、统一刮擦或全画厚涂当作成功条件。",
+      "evidence": "assets/approved/manifest.json",
+      "status": "observed_in_one_approved_case_transfer_unvalidated"
+    },
+    {
+      "id": "P5",
+      "name": "通过对比和边缘组织注意力",
+      "instruction": "脸与关键接触明确；衣体、道具、环境的明度、色差、边缘和笔痕强度共同服务人物。",
+      "limits": "安静是注意力作用，不等于无纹理；本认可图背景厚笔仍多，不应改写成极简背景。",
+      "evidence": "assets/approved/manifest.json",
+      "status": "observed_in_one_approved_case_transfer_unvalidated"
+    },
+    {
+      "id": "P6",
+      "name": "保留动物神态与克制的不对称",
+      "instruction": "眼睑、瞳孔、嘴线、头态与身体共同表达注意力；自然动物结构和细毛可以参与角色。",
+      "limits": "不统一大眼、短嘴、微笑、疲惫或“中年人”；不能仅因自然脸就判失败。",
+      "evidence": "assets/approved/manifest.json",
+      "status": "observed_in_one_approved_case_transfer_unvalidated"
+    },
+    {
+      "id": "P7",
+      "name": "保护已认可关系，再做有边界的变化",
+      "instruction": "用户认可后指定衣物或绘画调整，保存基线和允许变化区，核对身份、姿势、道具与支撑是否漂移。",
+      "limits": "不把两阶段编辑变成必经流程；没有新授权不追加调用。",
+      "evidence": "assets/approved/manifest.json",
+      "status": "observed_in_one_approved_case_transfer_unvalidated"
+    }
+  ],
+  "generation_instructions": {
+    "order": [
+      "identity",
+      "character_and_clothing_design",
+      "structure_review",
+      "reference_roles",
+      "assemble",
+      "freeze",
+      "authorized_generation",
+      "visual_review"
+    ],
+    "style_prompt": "Paint a specific animal character whose individual identity, posture, clothing and ordinary activity belong together. Build connected forehead, eye, cheek and muzzle volumes and a coherent body, garment and used-object silhouette. Let light-dark turns, directional marks, contact shadows and varied edges explain volume and material. Fur, whiskers, weave and substantial paint marks may remain where they support form and expression; neither uniform photographic finishing nor uniform decorative texture should replace painting decisions. Organize attention through relative contrast, colour relationships and edge emphasis; a textured background can still sit behind the figure. Choose a new palette, clothing and scene appropriate to this subject. Do not copy the approved reference's gray cat, surf shirt, logo, newspaper, bench or warm wall as a template.",
+    "constraints_clause": "Honor explicit gaze, clothing and scene requirements. Preserve credible animal connections, contacts and support; no unrequested human fingers, branding, captions, signature or frame.",
+    "assembler": "scripts/assemble_character.py"
+  },
+  "validation": {
+    "artistic_effect": "one_imported_and_two_tracked_user_approved_examples_limited_transfer",
+    "known_transfer_cases": 5,
+    "transfer_user_accepted": null,
+    "external_calls_unknown": true,
+    "packaging_generation_calls": 0,
+    "user_approved_transfer_cases": 2,
+    "known_user_approved_examples": 3
+  },
+  "display_name": "Lafiteskill",
+  "name_origin": "名称来自用户家的猫“拉菲”；猫狗创作范围保持。",
+  "construction_constraints": {
+    "mode": "explicit_relational_painting_plan",
+    "major_shape_count": {
+      "optional": true,
+      "min": 5,
+      "max": 8
+    },
+    "basis": "5–8块及统一材质预算退为历史试验，不是认可图成功条件。"
+  },
+  "approved_visual_reference": "assets/approved/manifest.json",
+  "packaging_revision": "portable_public_package_no_new_art_recipe"
+}

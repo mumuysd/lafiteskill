@@ -1,0 +1,39 @@
+{
+  "id": "cream-dog-cushion",
+  "historical_case_id": "02-cream-dog",
+  "title": "奶油卷毛犬 · 抱着靠垫歇一会儿",
+  "generated_profile_version": "1.29.0",
+  "packaged_version": "1.29.1",
+  "actual_calls": 1,
+  "generated_during_this_packaging": false,
+  "user_accepted": true,
+  "approval_quote": "两张都认可",
+  "approval_date": "2026-11-01",
+  "approval_scope": "public_showcase",
+  "visual_status": "pass",
+  "image": "painting.png",
+  "image_sha256": "5f83858837864b0a8c246aad8df2d4300d6fdec14542a14ad5b037ae410f3678",
+  "prompt": "prompt.txt",
+  "prompt_sha256": "bed326d011a7ba726be5ac6df427a2ed9fadd5ecbd663d46ecb0aa5adb32d815",
+  "original_request_sha256": "bd985672fcb327a64eee6e4f4b5262be700c74809d2959b1fb34608abbc522ff",
+  "source_photo_sha256": "f66055aa3299336dea6855cae1121a6d078d9fe2f0bf506b9cad8a31f33b40c5",
+  "identity_photo_distributed": false,
+  "references": [
+    {
+      "role": "identity",
+      "sha256": "f66055aa3299336dea6855cae1121a6d078d9fe2f0bf506b9cad8a31f33b40c5",
+      "public_image": null
+    },
+    {
+      "role": "quality",
+      "sha256": "2f5ee9c3148f6d81ea89c113a2712f5ae9efa8c64f68ac43f67da4442ddfdcc1",
+      "public_image": "../../../assets/approved/lafite-approved.png"
+    }
+  ],
+  "timeline": {
+    "frozen_at_utc": "2026-11-01T03:27:52.234487+00:00",
+    "started_at_utc": "2026-11-01T03:32:00.782650+00:00",
+    "completed_at_utc": "2026-11-01T03:32:37.306735+00:00"
+  },
+  "limits": "真实历史文件回放，不是重新调用或视频录屏；输入照片不公开，无法从公共包逐像素复现。只说明该例获认可，不推导通用成功率。"
+}

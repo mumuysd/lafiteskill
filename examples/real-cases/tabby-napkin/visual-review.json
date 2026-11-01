@@ -1,0 +1,54 @@
+{
+  "overall_review": {
+    "status": "pass",
+    "dimensions": {
+      "character_presence": {
+        "status": "pass",
+        "observation": "虎斑额纹、宽短口鼻、窄眼神和暖褐毛色保留；蓝衬衫连接肩胸与前爪，左右爪持住/抹平餐巾，物件接触可读。 毛面、衣物与餐巾仍有丰富细纹，后续应观察是否争夺注意力；画外后腿不作通过宣称。"
+      },
+      "painting_organization": {
+        "status": "pass",
+        "observation": "毛束、布面、衣褶和家具通过方向笔与明暗形成体积，脸与动作接触可读；纹理丰富不自动判失败。"
+      },
+      "sitter_space_relationship": {
+        "status": "pass",
+        "observation": "可见头颈、前肢及爪物接触连贯，未见明显穿物或多肢；未展示部位不作验证。"
+      }
+    }
+  },
+  "checks": {
+    "identity": {
+      "status": "pass",
+      "observation": "虎斑额纹、宽短口鼻、窄眼神和暖褐毛色保留；蓝衬衫连接肩胸与前爪，左右爪持住/抹平餐巾，物件接触可读。"
+    },
+    "anatomy": {
+      "status": "pass",
+      "observation": "可见头颈、前肢及爪物接触连贯，未见明显穿物或多肢；未展示部位不作验证。"
+    },
+    "paint_construction": {
+      "status": "pass",
+      "observation": "毛束、布面、衣褶和家具通过方向笔与明暗形成体积，脸与动作接触可读；纹理丰富不自动判失败。"
+    },
+    "scene": {
+      "status": "pass",
+      "observation": "虎斑额纹、宽短口鼻、窄眼神和暖褐毛色保留；蓝衬衫连接肩胸与前爪，左右爪持住/抹平餐巾，物件接触可读。"
+    },
+    "clothing": {
+      "status": "pass",
+      "observation": "衣物领袖/腰腹随姿态改变，款式与本幅活动相称，未套用冲浪衫与标志。"
+    },
+    "anthropomorphic_pose": {
+      "status": "pass",
+      "observation": "人类活动通过具体爪物/身体关系可见，不靠标题或衣服独立成立。"
+    },
+    "facial_intention": {
+      "status": "pass",
+      "observation": "眼睑、头态、嘴线与选定活动或休息状态相符。"
+    }
+  },
+  "passed": true,
+  "user_accepted": true,
+  "observations": "虎斑额纹、宽短口鼻、窄眼神和暖褐毛色保留；蓝衬衫连接肩胸与前爪，左右爪持住/抹平餐巾，物件接触可读。",
+  "remaining_issues": "毛面、衣物与餐巾仍有丰富细纹，后续应观察是否争夺注意力；画外后腿不作通过宣称。",
+  "limits": "已知输入条件的单张评审；艺术pass仅为本例初评，不等于用户认可或通用成功率。"
+}

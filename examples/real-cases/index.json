@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "id": "tabby-napkin",
+      "title": "虎斑猫 · 把餐巾理平",
+      "case": "tabby-napkin/case.json",
+      "image": "tabby-napkin/painting.png",
+      "image_sha256": "77890203ea03f131d6d8c48e2b03392de7f2d106d322961041af818ddd14d033",
+      "user_accepted": true,
+      "actual_calls": 1
+    },
+    {
+      "id": "cream-dog-cushion",
+      "title": "奶油卷毛犬 · 抱着靠垫歇一会儿",
+      "case": "cream-dog-cushion/case.json",
+      "image": "cream-dog-cushion/painting.png",
+      "image_sha256": "5f83858837864b0a8c246aad8df2d4300d6fdec14542a14ad5b037ae410f3678",
+      "user_accepted": true,
+      "actual_calls": 1
+    }
+  ],
+  "source_generation_version": "1.29.0",
+  "packaging_version": "1.29.1",
+  "packaging_generation_calls": 0,
+  "new_user_approved_examples": 2,
+  "not_a_success_rate": true
+}

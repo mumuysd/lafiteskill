@@ -1,0 +1,33 @@
+{
+  "profile_version": "1.29.1",
+  "role": "虎斑猫 · 把餐巾理平",
+  "facial_character": "Broad tabby cheeks, compact muzzle and pinkish nose; narrowed attentive eyes and upright cat ears as in Image 1, without making a gray British-shorthair face.",
+  "charm_contrast": "The stern-faced tabby carefully flattens an ordinary crumpled napkin with its small paws.",
+  "character_silhouette": "Seated slightly forward at a small dining table, one paw holds a rumpled linen napkin while the other smooths its folded edge.",
+  "action_design": "Seated slightly forward at a small dining table, one paw holds a rumpled linen napkin while the other smooths its folded edge.",
+  "paw_prop_roles": "Keep the specified paw tasks, contacts and small animal paws readable; no human hands or additional limbs.",
+  "posture": "Design head, shoulders, clothing, body and paws together around this activity; keep credible seated support.",
+  "gaze": "Eyes look down toward the napkin edge, with a restrained mouth, not a forced grin.",
+  "gaze_mode": "object",
+  "clothing_response": "Choose the pale blue short-sleeve shirt: a small collar frames the compact head, sleeves follow the two different paw reaches and a loose lower body preserves the tabby belly.",
+  "animal_traits": "Preserve the individual identity from Image 1. Translate coat into directional paint and connected light-dark volume, rather than a generic toy or an all-over photographic fur surface.",
+  "visible_character_hook": "The stern-faced tabby carefully flattens an ordinary crumpled napkin with its small paws.",
+  "identity_anchors": [
+    "brown and charcoal striped tabby cat",
+    "broad short-muzzled face",
+    "narrow greenish eyes and small pinkish nose",
+    "compact sturdy body with clear leg stripes"
+  ],
+  "clothing_options": [
+    "pale blue lightweight open-collar short-sleeve shirt",
+    "cream sleeveless knit"
+  ],
+  "clothing_choice_reason": "Choose the pale blue short-sleeve shirt: a small collar frames the compact head, sleeves follow the two different paw reaches and a loose lower body preserves the tabby belly.",
+  "design_review": {
+    "status": "reviewed_as_design",
+    "facial_character": "Source-specific feature combination recorded; no breed or hidden eye detail invented.",
+    "charm_contrast": "Ordinary physical activity and animal posture make the hook visible.",
+    "character_silhouette": "Clothing volume follows seated action; support and contacts specified."
+  },
+  "reference_inputs": []
+}

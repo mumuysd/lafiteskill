@@ -1,0 +1,39 @@
+{
+  "id": "tabby-napkin",
+  "historical_case_id": "01-tabby",
+  "title": "虎斑猫 · 把餐巾理平",
+  "generated_profile_version": "1.29.0",
+  "packaged_version": "1.29.1",
+  "actual_calls": 1,
+  "generated_during_this_packaging": false,
+  "user_accepted": true,
+  "approval_quote": "两张都认可",
+  "approval_date": "2026-11-01",
+  "approval_scope": "public_showcase",
+  "visual_status": "pass",
+  "image": "painting.png",
+  "image_sha256": "77890203ea03f131d6d8c48e2b03392de7f2d106d322961041af818ddd14d033",
+  "prompt": "prompt.txt",
+  "prompt_sha256": "dfce62afafa6f093904ecc1d5c3fa42703780c868d7c16817dfd371ef10268c9",
+  "original_request_sha256": "84010a19d954430ba30d52a8bda7a68d5c7c88ddd97ab284ca80ffb6c494fec1",
+  "source_photo_sha256": "612f71e647244990591c7e4c61839a90ab81424a8d838d55d22a765d8093402a",
+  "identity_photo_distributed": false,
+  "references": [
+    {
+      "role": "identity",
+      "sha256": "612f71e647244990591c7e4c61839a90ab81424a8d838d55d22a765d8093402a",
+      "public_image": null
+    },
+    {
+      "role": "quality",
+      "sha256": "2f5ee9c3148f6d81ea89c113a2712f5ae9efa8c64f68ac43f67da4442ddfdcc1",
+      "public_image": "../../../assets/approved/lafite-approved.png"
+    }
+  ],
+  "timeline": {
+    "frozen_at_utc": "2026-11-01T03:27:52.234487+00:00",
+    "started_at_utc": "2026-11-01T03:31:29.539611+00:00",
+    "completed_at_utc": "2026-11-01T03:32:00.722915+00:00"
+  },
+  "limits": "真实历史文件回放，不是重新调用或视频录屏；输入照片不公开，无法从公共包逐像素复现。只说明该例获认可，不推导通用成功率。"
+}
